@@ -193,7 +193,8 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
       if (node == null) {
          return 0;
       }
-      return 1 + getNumberOfNodes(this.leftTree) + getNumberOfNodes(this.rightTree);
+      //return getNumberOfNodes_binaryNodeMethod();
+      return 1 + getNumberOfNodes(node.leftTree) + getNumberOfNodes(this.rightTree);
    } // end getNumberOfNodes
 
    /**
