@@ -3,9 +3,9 @@ CS2400 - Project 2
 
 Rubber Duckies: Gelila Chaka and UyenNghi Nguyen
 
-Gelila worked on the ResizableArrayStack methods.
-UyenNghi worked on the LinkedStack methods.
-We worked together on the Calculator and unit testing.
+Gelila worked on 
+UyenNghi 
+We worked together on 
 
 Video Link:
 
