@@ -1,6 +1,6 @@
 public class BinaryTree<T> implements BinaryTreeInterface<T> {
    private BinaryNode<T> root;
-   private BinaryNode<T> leftTree;
+  private BinaryNode<T> leftTree;
    private BinaryNode<T> rightTree;
 
    public BinaryTree() {
@@ -158,9 +158,9 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
     */
    public int getHeight_callBinaryNodeMethod() {
       int HeightOfNodes = 0;
-      if (root != null)
+      
          HeightOfNodes = root.getHeight_binaryNodeMethod();
-      return HeightOfNodes;
+      return root.getHeight_binaryNodeMethod();
    } // end getHeight_callBinaryNodeMethod
 
    /** -------------------------------------------------------------------- */
@@ -208,5 +208,4 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
       return numberOfNodes;
    } // end getNumberOfNodes_callBinaryNodeMethod
 
-   
 } // end BinaryTree
