@@ -1,5 +1,7 @@
 public class BinaryTree<T> implements BinaryTreeInterface<T> {
    private BinaryNode<T> root;
+//private BinaryNode<T> leftTree;
+//private BinaryNode<T> rightTree;
 
    public BinaryTree() {
       root = null;
@@ -146,6 +148,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
                getHeight(node.getRightChild()));
       return height;
    } // end getHeight
+   
 
    /**
     * The following calls getHeight_binaryNodeMethod() which is a recursive
@@ -155,8 +158,13 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
     * @return The height of the "whole" tree.
     */
    public int getHeight_callBinaryNodeMethod() {
-      return this.getHeight_binaryNodeMethod();
+    int HeightOfNodes = 0;
+    if (root != null)
+       HeightOfNodes = root.getHeight_binaryNodeMethod();
+    return HeightOfNodes;
    } // end getHeight_callBinaryNodeMethod
+
+    
 
    /** -------------------------------------------------------------------- */
    /**
