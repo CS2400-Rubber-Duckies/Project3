@@ -133,6 +133,7 @@ class BinaryNode<T> {
       if (this.rightChild != null) {
          this.rightChild.postorderTraverse_binaryNodeMethod();
       }
+      System.out.println(data);
    }
 
    /**
@@ -146,9 +147,9 @@ class BinaryNode<T> {
     * @return The height of the subtree rooted at "this" node.
     */
    public int getHeight_binaryNodeMethod() {
-       if (this.data == null){
-           return 0;
-       }
+       //if (this.data == null){
+         //  return 0;
+      // }
        if (this.leftChild == null && this.rightChild  == null){
            return 0;
        }

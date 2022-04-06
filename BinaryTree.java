@@ -1,7 +1,7 @@
 public class BinaryTree<T> implements BinaryTreeInterface<T> {
    private BinaryNode<T> root;
-  private BinaryNode<T> leftTree;
-   private BinaryNode<T> rightTree;
+  //private BinaryNode<T> leftTree;
+  // private BinaryNode<T> rightTree;
 
    public BinaryTree() {
       root = null;
@@ -190,7 +190,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
          return 0;
       }
       // return getNumberOfNodes_binaryNodeMethod();
-      return 1 + getNumberOfNodes(this.leftTree) + getNumberOfNodes(this.rightTree);
+      return 1 + getNumberOfNodes(node.getLeftChild()) + getNumberOfNodes(node.getRightChild());
    } // end getNumberOfNodes
 
    /**
