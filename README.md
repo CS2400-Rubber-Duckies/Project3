@@ -1,12 +1,9 @@
-# Project3
-CS2400 - Project 2
+# CS2400 - Project 3
 
 Rubber Duckies: Gelila Chaka and UyenNghi Nguyen
 
-Gelila worked on 
-UyenNghi 
-We worked together on 
+- Gelila worked on the main implementations.
+- UyenNghi worked on the Driver method.
+- We worked together on debugging and improving our program. 
 
 Video Link:
-
-JavadocLink: 
