@@ -149,15 +149,17 @@ class BinaryNode<T> {
    public int getHeight_binaryNodeMethod() {
        //if (this.data == null){
          //  return 0;
-      // }
-       if (this.leftChild == null && this.rightChild  == null){
-           return 0;
-       }
-      int height = Math.max(this.leftChild.getHeight_binaryNodeMethod(),
+      // }  
+      int height =0 ;
+       if (this.leftChild != null && this.rightChild  != null)
+          
+       
+       height = Math.max(this.leftChild.getHeight_binaryNodeMethod(),
             this.rightChild.getHeight_binaryNodeMethod());
-      return height + 1;
-   } // end getHeight
-   
+     
+    // end getHeight
+   return height + 1;
+}
    /** -------------------------------------------------------------------- */
    /**
     * A Recursive Method in the BinaryNode Class
