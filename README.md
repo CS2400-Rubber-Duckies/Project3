@@ -6,4 +6,4 @@ Rubber Duckies: Gelila Chaka and UyenNghi Nguyen
 - UyenNghi worked on the Driver method.
 - We worked together on debugging and improving our program. 
 
-Video Link:
+Video Link: https://youtu.be/sbawwaVAzYc
